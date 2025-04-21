@@ -20,7 +20,7 @@ def get_book_text(path_to_file):
 
 def format_results(book_path, num_words, sorted_char_count):
     result = f"""============ BOOKBOT ============
-    Analyzing book found at {book_path}...
+Analyzing book found at {book_path}...
 ----------- Word Count ----------
 Found {num_words} total words
 --------- Character Count -------
